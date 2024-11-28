@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.main {
+    margin: 50px 100px;
+}
+
+.profile {
+    padding: 50px;
+}
+
+.hero-top {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+/*.heading {
+    margin-top: 20px;
+    font-size: 42px;
+    font-family: "orbitron", sans-serif;
+    text-align: center;
+
+    
+}
+
+.subheading {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "orbitron", sans-serif;
+    text-align: center;
+    
+
+
+}*/
+
+.hero-para {
+    margin-top: 20px;
+    font-family: "poppins", sans-serif;
+    color: #6d6d6d;
+
+}
+
+.hero-bottom {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.star-1 {
+    width: 50px;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+
+.star-2 {
+    width: 50px;
+    position: absolute;
+    right: 400px;
+    top: 30px;
+}
+
+.mesh {
+    position: relative;
+    width: 300px;
+    bottom: 250px;
+    left: 40px;
+    z-index: -1;
+
+}

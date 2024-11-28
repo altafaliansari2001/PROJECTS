@@ -1,0 +1,137 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 90px;
+    padding-top: 170px;
+    gap: 70px;
+}
+
+#left {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+#left h1 {
+    font-size: 120px;
+    font-weight: 600;
+}
+
+#bottom-left{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#color {
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#color h5 {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+#color1 {
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+
+#color2 {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#left h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#left p{
+    font-size: 20px;
+    width: 80%;
+    font-weight: 600;
+    color: #444;
+    line-height: 30px;
+}
+
+
+#right {
+    height: 90%;
+    width: 33%;
+    position: relative;
+}
+
+#right-top {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4 {
+    font-size: 30px;
+    font-family: 50px;
+    font-weight: 500;
+}
+
+#right-top h5 {
+    font-size: 16px;
+    
+}
+
+#right img {
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+}
+
+#black-gola {
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    background-color: rgb(23, 22, 22);
+    color: #fff;
+    border-radius: 50%;
+    right: -18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24%;
+
+}
+
+#black-gola h5{
+    font-size: 26px;
+    font-weight: 500;
+}
